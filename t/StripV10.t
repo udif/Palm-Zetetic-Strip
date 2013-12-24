@@ -5,7 +5,7 @@ require "t/StripCommon.ph";
 
 eval "use Digest::SHA256";
 if ($@) {
-    warn "Digest::256 not installed\n";
+    warn "Digest::SHA256 not installed\n";
     print "1..0\n";
     exit;
 }
